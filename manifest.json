@@ -1,0 +1,12 @@
+{
+  "visualization": {
+    "id": "menu-sigersol",
+    "name": "Menú SIGERSOL",
+    "icon": "menu",
+    "description": "Un menú de navegación para SIGERSOL Municipal",
+    "resources": {
+      "js": ["menu.js"],
+      "css": ["menu.css"]
+    }
+  }
+}
