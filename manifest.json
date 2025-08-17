@@ -1,12 +1,18 @@
 {
-  "visualization": {
-    "id": "menu-sigersol",
-    "name": "Menú SIGERSOL",
-    "icon": "menu",
-    "description": "Un menú de navegación para SIGERSOL Municipal",
-    "resources": {
-      "js": ["menu.js"],
-      "css": ["menu.css"]
+  "name": "Menú SIGERSOL",
+  "id": "menu-sigersol",
+  "icon": "menu",
+  "description": "Un menú de navegación para SIGERSOL Municipal",
+  "components": [
+    {
+      "id": "menu-sigersol-component",
+      "name": "Menú SIGERSOL",
+      "type": "visualization",
+      "entrypoint": "menu.js",
+      "resources": {
+        "js": ["menu.js"],
+        "css": ["menu.css"]
+      }
     }
-  }
+  ]
 }
