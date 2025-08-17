@@ -1,18 +1,12 @@
 {
-  "name": "Menú SIGERSOL",
-  "id": "menu-sigersol",
-  "icon": "menu",
-  "description": "Un menú de navegación para SIGERSOL Municipal",
-  "components": [
-    {
-      "id": "menu-sigersol-component",
-      "name": "Menú SIGERSOL",
-      "type": "visualization",
-      "entrypoint": "menu.js",
-      "resources": {
-        "js": ["menu.js"],
-        "css": ["menu.css"]
-      }
+  "visualization": {
+    "id": "menu-sigersol",
+    "label": "Menú SIGERSOL",
+    "description": "Un menú de navegación para SIGERSOL Municipal",
+    "logoUrl": "https://rsantisteban-design.github.io/sigersolmuni-menu/menu.png",
+    "resources": {
+      "js": ["menu.js"],
+      "css": ["menu.css"]
     }
-  ]
+  }
 }
